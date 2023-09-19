@@ -22,7 +22,7 @@
 <summary><b> Erste Schritte </b></summary>
 
 ## Wie gehe ich nun vor?
-### nun wenn ich eine idee habe habe ich schon mal erste schritte etwas zu erstellen
+#### nun wenn ich eine idee habe habe ich schon mal erste schritte etwas zu erstellen
 
 - Pokemon belike game
   - Main
