@@ -4,7 +4,7 @@
 <details>
 <summary><b> Die Idee </b></summary>
   
-- Wie komm ich auf eine schlüssige Idee?
+- Wie komm ich auf eine schlüssige <span style="color: red;">Idee</span>?
   - Social Media
   - Spiele
   - Videos
