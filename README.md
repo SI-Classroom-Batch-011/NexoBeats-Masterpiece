@@ -1,10 +1,11 @@
 # NexoBeats-Masterpiece
 #### Das ist das Abschluss projekt von Nico-Tobias Merzky im Modul 2 von Batch 11.
+<h1 style="color: green;">This is a green header.</h1>
 ---
 <details>
 <summary><b> Die Idee </b></summary>
   
-- Wie komm ich auf eine schlüssige <span style="color: red;">Idee</span>?
+- Wie komm ich auf eine schlüssige <h5 style="color: green;">Idee</h5>?
   - Social Media
   - Spiele
   - Videos
