@@ -1,21 +1,20 @@
 # NexoBeats-Masterpiece
-#### Das ist das Abschluss projekt von Nico-Tobias Merzky im Modul 2 von Batch 11.
-
-<font color="green">Dieser Text ist grün.</font>
+#### Das ist das Abschluss Projekt von Nico-Tobias Merzky im Modul 2 von Batch 11.
 
 ---
 <details>
 <summary><b> Die Idee </b></summary>
   
-- Wie komm ich auf eine schlüssige Idee?
-  - Social Media
+- Wie komme ich auf eine schlüssige <font color="limegreen">Idee</font>?
+  - <font color="orange">Social Media
   - Spiele
   - Videos
   - Musik
   - Filme
-  - Serien
-    
-###### _Es gibt eine menge Möglichenkeiten eine Idee zu finden und sich daran zu orientieren._
+  - Serien 
+  </font>
+
+_<font color="grey">Es gibt eine Menge Möglichkeiten eine Idee zu finden und sich daran zu orientieren.</font>_
   
 </details>
 
@@ -25,13 +24,13 @@
 <summary><b> Erste Schritte </b></summary>
 
 ## Wie gehe ich nun vor?
-#### Nun wenn ich eine Idee habe was ich erstellen möchte, habe ich schon mal einige schritte was ich zu erstellen habe.
+#### Nun wenn ich eine Idee habe, was ich erstellen möchte, habe ich schon mal einige schritte, was ich zu erstellen habe.
 
 <details>
-<summary><b> Pokemon belike game </b></summary>
+<summary><b> Pokemon be like game </b></summary>
 
 - Main
-- Pokemon Class
+- Pokémon Class
   - Pikachu
   - Raichu
   - Pichu
@@ -50,7 +49,7 @@
   - Ruckzuckhieb
 - Item Class
   - Trank
-  - Pokeball
+  - Pokéball
   - Fahrrad
   - Item Radar
   - Superball
