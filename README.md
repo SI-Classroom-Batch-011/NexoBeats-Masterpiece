@@ -1,9 +1,10 @@
-<!DOCTYPE html>
-<html lang="eu">
 <header>
 <h1>NexoBeats - Masterpiece</h1>
 <p>Das ist das Abschluss Projekt von Nico-Tobias Merzky im Modul 2 von Batch 11.</p>
 </header>
+
+<hr style="width:90%;text-align:center;">
+<p><a href="dieIdee.md"> • Die Idee • </a> | <a href="#"> About</a> | <a href="#">Play</a></p>
 
 <details>
 <summary><b><ins> Die Idee </ins></b></summary>
@@ -32,6 +33,7 @@
 
 </details>
 
+---
 
 <details>
 <summary><b><ins> Erste Schritte </ins></b></summary>
