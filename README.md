@@ -5,18 +5,26 @@
 <summary><b><ins> Die Idee </ins></b></summary>
 
 <table style="background-color:#00091a">
+<tr>
+<th>Wie komme ich auf eine schlüssige Idee?</th>
+</tr>
+<tr>
+<td>Social Media
 
-- Wie komme ich auf eine schlüssige <font color="limegreen">**Idee**</font>?
-  - <font color="orange">Social Media
-  - Spiele
-  - Videos
-  - Musik
-  - Filme
-  - Serien 
-  </font>
+Spiele
 
-_<font color="grey">Es gibt eine Menge Möglichkeiten eine Idee zu finden und sich daran zu orientieren.</font>_
+Videos 
 
+Musik 
+
+Filme 
+
+Serien
+</td>
+</tr>
+<tr>
+<td><i>Es gibt eine Menge Möglichkeiten eine Idee zu finden und sich daran zu orientieren.</i></td>
+</tr>
 </table>
 
 </details>
