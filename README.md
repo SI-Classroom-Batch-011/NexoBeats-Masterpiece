@@ -116,3 +116,29 @@ _<font color="grey">Es gibt eine Menge Möglichkeiten eine Idee zu finden und si
 ###### _Nun weiß ich anhand meiner Idee, was ich erstellen will und wie ich es erstellen will._
   
 </details>
+
+---
+
+<details>
+<summary><b> Credits </b></summary>
+
+<details>
+<summary><b> Contributors </b></summary>
+
+# Unterstützer
+- Gordon Lucas
+- Christian Wietzke
+
+</details>
+
+---
+
+<details>
+<summary><b> Main Worker </b></summary>
+
+# Hauptarbeiter
+- Nico-Tobias Merzky
+
+</details>
+
+</details>
