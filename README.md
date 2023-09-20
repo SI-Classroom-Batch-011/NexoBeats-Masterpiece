@@ -1,5 +1,5 @@
 # <font color="kingblue">NexoBeats</font> - <font color="Gold">Masterpiece</font>
-##### Das ist das Abschluss Projekt von Nico-Tobias Merzky im Modul 2 von Batch 11.
+<sub><h5>Das ist das Abschluss Projekt von Nico-Tobias Merzky im Modul 2 von Batch 11.</h5></sub>
 
 <details>
 <summary><b><ins> Die Idee </ins></b></summary>
