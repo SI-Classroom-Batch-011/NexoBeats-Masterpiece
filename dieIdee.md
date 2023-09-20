@@ -1,4 +1,4 @@
-<table style="">
+<table style="width:100%">
 <tr>
 <th>Wie komme ich auf eine schlüssige Idee?</th>
 </tr>
