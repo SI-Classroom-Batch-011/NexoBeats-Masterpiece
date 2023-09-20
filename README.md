@@ -4,7 +4,7 @@
 </header>
 
 <hr style="width:90%;text-align:center;">
-<p><a href="DIEIDEE.html"> • Die Idee • </a> | <a href="#"> About</a> | <a href="#">Play</a></p>
+<p><a href="dieIdee.md"> • Die Idee • </a> | <a href="contributors.md"> • Contributors • </a> | <a href="#">Play</a></p>
 
 <details>
 <summary><b><ins> Die Idee </ins></b></summary>
