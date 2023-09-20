@@ -4,7 +4,7 @@
 <details>
 <summary><b><ins> Die Idee </ins></b></summary>
 
-<quote>
+<blockquote>
 
 - Wie komme ich auf eine schlüssige <font color="limegreen">**Idee**</font>?
   - <font color="orange">Social Media
@@ -17,7 +17,7 @@
 
 _<font color="grey">Es gibt eine Menge Möglichkeiten eine Idee zu finden und sich daran zu orientieren.</font>_
 
-</quote>
+</blockquote>
 
 </details>
 
@@ -131,9 +131,9 @@ Nun wenn ich eine <ins>**Idee**</ins> habe, was ich erstellen möchte, habe ich 
 
 ---
 
-<font color="#32cd32"><ins>$</ins></font> - <font color="#32cd32"><ins>Meine Auswahl</ins></font>
+<font color="#32cd32"><ins></ins></font> - <font color="#32cd32"><ins>Meine Auswahl</ins></font>
 ####
-<font color="#cd5c5c">~~$~~</font> - <font color="#cd5c5c">Die Andere wahl</font> 
+<font color="#cd5c5c">X</font> - <font color="#cd5c5c">Die Andere wahl</font> 
 
 ###### _Nun weiß ich anhand meiner Idee, was ich erstellen will und wie ich es erstellen will._
 
