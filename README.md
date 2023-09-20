@@ -1,5 +1,7 @@
-# <font color="kingblue">NexoBeats</font> - <font color="Gold">Masterpiece</font>
+<header>
+<h1><font color="kingblue">NexoBeats</font> - <font color="Gold">Masterpiece</font></h1>
 <sub><h5>Das ist das Abschluss Projekt von Nico-Tobias Merzky im Modul 2 von Batch 11.</h5></sub>
+</header>
 
 <details>
 <summary><b><ins> Die Idee </ins></b></summary>
