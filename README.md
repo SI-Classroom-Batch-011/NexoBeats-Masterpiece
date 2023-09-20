@@ -2,9 +2,9 @@
 ##### Das ist das Abschluss Projekt von Nico-Tobias Merzky im Modul 2 von Batch 11.
 
 <details>
-<summary><b><u> Die Idee </u></b></summary>
+<summary><b><ins> Die Idee </ins></b></summary>
 
-<blockquote>
+<code>
 
 - Wie komme ich auf eine schlüssige <font color="limegreen">**Idee**</font>?
   - <font color="orange">Social Media
@@ -17,23 +17,23 @@
 
 _<font color="grey">Es gibt eine Menge Möglichkeiten eine Idee zu finden und sich daran zu orientieren.</font>_
 
-</blockquote>
+</code>
 
 </details>
 
 
 <details>
-<summary><b><u> Erste Schritte </u></b></summary>
+<summary><b><ins> Erste Schritte </ins></b></summary>
 
 <blockquote>
 
 ##### Wie gehe ich nun vor? 
-Nun wenn ich eine <u>**Idee**</u> habe, was ich erstellen möchte, habe ich schon mal einige schritte, was ich zu erstellen habe.
+Nun wenn ich eine <ins>**Idee**</ins> habe, was ich erstellen möchte, habe ich schon mal einige schritte, was ich zu erstellen habe.
 
 ---
 
 <details>
-<summary><b><span style="color: #32cd32;"> Pokemon be like game </span></b></summary>
+<summary><b><span style="color: #32cd32;"><ins> Pokemon be like game </ins></span></b></summary>
 
 <blockquote>
 
@@ -131,7 +131,7 @@ Nun wenn ich eine <u>**Idee**</u> habe, was ich erstellen möchte, habe ich scho
 
 ---
 
-<font color="#32cd32">$</font> - <font color="#32cd32">Meine Auswahl</font>
+<font color="#32cd32"><ins>$</ins></font> - <font color="#32cd32"><ins>Meine Auswahl</ins></font>
 ####
 <font color="#cd5c5c">~~$~~</font> - <font color="#cd5c5c">Die Andere wahl</font> 
 
