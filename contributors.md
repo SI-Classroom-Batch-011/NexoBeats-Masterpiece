@@ -20,7 +20,7 @@
 
 - <font color="kingblue">Nico-Tobias Merzky</font>
   - <a href="src/Main.kt">Main Development</a>
-  - <a href="src/Types">Types Developement</a>
+  - <a href="src/Types.kt">Types Developement</a>
   - <a href="README.md">ReadMe-File Development</a>
 
 </td>
