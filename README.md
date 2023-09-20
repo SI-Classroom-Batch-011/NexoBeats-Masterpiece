@@ -1,11 +1,12 @@
-# NexoBeats-Masterpiece
-#### Das ist das Abschluss Projekt von Nico-Tobias Merzky im Modul 2 von Batch 11.
+# <font color="kingblue">NexoBeats</font> - <font color="Gold">Masterpiece</font>
+##### Das ist das Abschluss Projekt von Nico-Tobias Merzky im Modul 2 von Batch 11.
 
----
 <details>
-<summary><b> Die Idee </b></summary>
-  
-- Wie komme ich auf eine schlüssige <font color="limegreen">Idee</font>?
+<summary><b><u> Die Idee </u></b></summary>
+
+<blockquote>
+
+- Wie komme ich auf eine schlüssige <font color="limegreen">**Idee**</font>?
   - <font color="orange">Social Media
   - Spiele
   - Videos
@@ -15,19 +16,26 @@
   </font>
 
 _<font color="grey">Es gibt eine Menge Möglichkeiten eine Idee zu finden und sich daran zu orientieren.</font>_
-  
+
+</blockquote>
+
 </details>
+
+
+<details>
+<summary><b><u> Erste Schritte </u></b></summary>
+
+<blockquote>
+
+##### Wie gehe ich nun vor? 
+Nun wenn ich eine <u>**Idee**</u> habe, was ich erstellen möchte, habe ich schon mal einige schritte, was ich zu erstellen habe.
 
 ---
 
 <details>
-<summary><b> Erste Schritte </b></summary>
+<summary><b><span style="color: #32cd32;"> Pokemon be like game </span></b></summary>
 
-## Wie gehe ich nun vor?
-#### Nun wenn ich eine Idee habe, was ich erstellen möchte, habe ich schon mal einige schritte, was ich zu erstellen habe.
-
-<details>
-<summary><b> Pokemon be like game </b></summary>
+<blockquote>
 
 - Main
 - Pokémon Class
@@ -71,11 +79,17 @@ _<font color="grey">Es gibt eine Menge Möglichkeiten eine Idee zu finden und si
   - Freunde
   - Rivalen
   - Arena Leiter
-  
+
+</blockquote>
+
 </details>
 
+---
+
 <details>
-<summary><b> Social Media App </b></summary>
+<summary><b><span style="color: #cd5c5c; "> Social Media App </span></b></summary>
+
+<blockquote>
 
 - Main
 - Accounts Class
@@ -110,24 +124,39 @@ _<font color="grey">Es gibt eine Menge Möglichkeiten eine Idee zu finden und si
 - Friends Class
   - Bester Freund
   - Freund
-  
-</details>
 
-###### _Nun weiß ich anhand meiner Idee, was ich erstellen will und wie ich es erstellen will._
-  
+</blockquote>
+
 </details>
 
 ---
 
+<font color="#32cd32">$</font> - <font color="#32cd32">Meine Auswahl</font>
+####
+<font color="#cd5c5c">~~$~~</font> - <font color="#cd5c5c">Die Andere wahl</font> 
+
+###### _Nun weiß ich anhand meiner Idee, was ich erstellen will und wie ich es erstellen will._
+
+</blockquote>
+
+</details>
+
+
 <details>
-<summary><b> Credits </b></summary>
+<summary><b><u> Credits </u></b></summary>
+
+<blockquote>
 
 <details>
 <summary><b> Contributors </b></summary>
 
-# Unterstützer
+<blockquote>
+<b><u>Mitwirkende</u></b>
+
 - Gordon Lucas
 - Christian Wietzke
+
+</blockquote>
 
 </details>
 
@@ -136,9 +165,15 @@ _<font color="grey">Es gibt eine Menge Möglichkeiten eine Idee zu finden und si
 <details>
 <summary><b> Main Worker </b></summary>
 
-# Hauptarbeiter
+<blockquote>
+
+<b><u>Hauptarbeiter</u></b>
 - Nico-Tobias Merzky
 
+</blockquote>
+
 </details>
+
+</blockquote>
 
 </details>
