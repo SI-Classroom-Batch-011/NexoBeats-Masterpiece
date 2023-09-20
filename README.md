@@ -143,7 +143,7 @@ Nun wenn ich eine <ins>**Idee**</ins> habe, was ich erstellen möchte, habe ich 
 
 
 <details>
-<summary><b><u> Credits </u></b></summary>
+<summary><b><ins> Credits </ins></b></summary>
 
 <blockquote>
 
@@ -151,7 +151,7 @@ Nun wenn ich eine <ins>**Idee**</ins> habe, was ich erstellen möchte, habe ich 
 <summary><b> Contributors </b></summary>
 
 <blockquote>
-<b><u>Mitwirkende</u></b>
+<b><ins>Mitwirkende</ins></b>
 
 - Gordon Lucas
 - Christian Wietzke
@@ -167,7 +167,7 @@ Nun wenn ich eine <ins>**Idee**</ins> habe, was ich erstellen möchte, habe ich 
 
 <blockquote>
 
-<b><u>Hauptarbeiter</u></b>
+<b><ins>Hauptarbeiter</u></b>
 - Nico-Tobias Merzky
 
 </blockquote>
