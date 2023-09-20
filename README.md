@@ -4,7 +4,7 @@
 <details>
 <summary><b><ins> Die Idee </ins></b></summary>
 
-<blockquote>
+<table style="background-color:#00091a">
 
 - Wie komme ich auf eine schlüssige <font color="limegreen">**Idee**</font>?
   - <font color="orange">Social Media
@@ -17,7 +17,7 @@
 
 _<font color="grey">Es gibt eine Menge Möglichkeiten eine Idee zu finden und sich daran zu orientieren.</font>_
 
-</blockquote>
+</table>
 
 </details>
 
@@ -149,6 +149,7 @@ Nun wenn ich eine <ins>**Idee**</ins> habe, was ich erstellen möchte, habe ich 
 
 <details>
 <summary><b> Contributors </b></summary>
+
 
 <blockquote>
 <b><ins>Mitwirkende</ins></b>
