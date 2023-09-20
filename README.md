@@ -9,7 +9,8 @@
 <th>Wie komme ich auf eine schlüssige Idee?</th>
 </tr>
 <tr>
-<td>Social Media
+<td>
+Social Media
 
 Spiele
 
