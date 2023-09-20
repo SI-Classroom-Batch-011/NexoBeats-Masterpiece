@@ -33,7 +33,7 @@ Serien
 <details>
 <summary><b><ins> Erste Schritte </ins></b></summary>
 
-<blockquote>
+<table style="background-color:#00091a">
 
 ##### Wie gehe ich nun vor? 
 Nun wenn ich eine <ins>**Idee**</ins> habe, was ich erstellen möchte, habe ich schon mal einige schritte, was ich zu erstellen habe.
@@ -145,7 +145,7 @@ Nun wenn ich eine <ins>**Idee**</ins> habe, was ich erstellen möchte, habe ich 
 
 ###### _Nun weiß ich anhand meiner Idee, was ich erstellen will und wie ich es erstellen will._
 
-</blockquote>
+</table>
 
 </details>
 
