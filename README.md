@@ -33,7 +33,7 @@ Nun wenn ich eine <ins>**Idee**</ins> habe, was ich erstellen möchte, habe ich 
 ---
 
 <details>
-<summary><b><span style="color: #32cd32;"><ins> Pokemon be like game </ins></span></b></summary>
+<summary><b><span style="color: #32cd32;">👍 <ins>Pokemon be like game</ins></span></b></summary>
 
 <blockquote>
 
@@ -87,7 +87,7 @@ Nun wenn ich eine <ins>**Idee**</ins> habe, was ich erstellen möchte, habe ich 
 ---
 
 <details>
-<summary><b><span style="color: #cd5c5c; "> Social Media App </span></b></summary>
+<summary><b><span style="color: #cd5c5c; ">👎 Social Media App </span></b></summary>
 
 <blockquote>
 
@@ -131,9 +131,9 @@ Nun wenn ich eine <ins>**Idee**</ins> habe, was ich erstellen möchte, habe ich 
 
 ---
 
-<font color="#32cd32"><ins></ins></font> - <font color="#32cd32"><ins>Meine Auswahl</ins></font>
+<font color="#32cd32">👍</font> <font color="#32cd32"><ins>Meine Auswahl</ins></font>
 ####
-<font color="#cd5c5c">X</font> - <font color="#cd5c5c">Die Andere wahl</font> 
+<font color="#cd5c5c">👎</font> <font color="#cd5c5c">Die Andere wahl</font> 
 
 ###### _Nun weiß ich anhand meiner Idee, was ich erstellen will und wie ich es erstellen will._
 
