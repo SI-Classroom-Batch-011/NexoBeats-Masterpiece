@@ -5,7 +5,7 @@
 [<kbd style="padding: 10px 20px;">• Die Idee •</kbd>][Link] 
 &emsp; [<kbd style="padding: 10px 20px;">• Erste Schritte •</kbd>][Link2] 
 &emsp; [<kbd style="padding: 10px 20px;">• Types •</kbd>][Link3]
-&emsp; [<kdb style="padding: 10px 20px;">• Pokedex •</kbd>][Link5]
+&emsp; [<kbd style="padding: 10px 20px;">• Pokedex •</kbd>][Link5]
 &emsp; [<kbd style="padding: 10px 20px;">• Credits •</kbd>][Link4]
 
 </div>
