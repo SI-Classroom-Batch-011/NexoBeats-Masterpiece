@@ -1,6 +1,6 @@
 <div align="center">
 <h1>NexoBeats - Masterpiece</h1>
-<h4>Menu</h4>
+<h3>Menu</h3>
 
 [<kbd><br>&nbsp;&nbsp;• Die Idee •&nbsp;&nbsp;<br><br></kbd>][Link] 
 &emsp; [<kbd><br>&nbsp;&nbsp;• Erste Schritte •&nbsp;&nbsp;<br><br></kbd>][Link2] 
