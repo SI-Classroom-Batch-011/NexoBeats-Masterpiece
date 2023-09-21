@@ -1,7 +1,7 @@
-# NexoBeats - Masterpiece
-### Menu
+<h1 align="center">NexoBeats - Masterpiece</h1>
 
-[<kbd> <br> Die Idee <br><br> </kbd>][Link] [<kbd> Erste Schritte </kbd>][Link2]
+
+[<kbd> <br> Die Idee<br></kbd>][Link] [<kbd> Erste Schritte </kbd>][Link2]
 
 ###### _Das ist das Abschlussprojekt von <u>Nico-Tobias Merzky</u> im Modul 2 von Batch 11._
 
