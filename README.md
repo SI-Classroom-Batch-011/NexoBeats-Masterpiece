@@ -2,11 +2,11 @@
 <h1>NexoBeats - Masterpiece</h1>
 <h4>Menu</h4>
 
-[<kbd><br>• Die Idee •<br><br></kbd>][Link] 
-&emsp; [<kbd><br>• Erste Schritte •<br><br></kbd>][Link2] 
-&emsp; [<kbd><br>• Types •<br><br></kbd>][Link3]
-&emsp; [<kdb><br>• Pokedex •<br><br></kbd>][Link5]
-&emsp; [<kbd><br>• Credits •<br><br></kbd>][Link4]
+[<kbd style="padding: 10px 20px">• Die Idee •</kbd>][Link] 
+&emsp; [<kbd style="padding: 10px 20px">• Erste Schritte •</kbd>][Link2] 
+&emsp; [<kbd style="padding: 10px 20px">• Types •</kbd>][Link3]
+&emsp; [<kdb style="padding: 10px 20px">• Pokedex •</kbd>][Link5]
+&emsp; [<kbd style="padding: 10px 20px">• Credits •</kbd>][Link4]
 
 </div>
 
