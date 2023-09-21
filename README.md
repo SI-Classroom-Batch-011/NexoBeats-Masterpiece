@@ -3,7 +3,7 @@
 <h4>Menu</h4>
 
 [<kbd><br>&nbsp;&nbsp;• Die Idee •&nbsp;&nbsp;<br><br></kbd>][Link] 
-&emsp; [<kbd><br>&nbsp;&nbsp;• Erste Schritte •<br><br>&nbsp;&nbsp;</kbd>][Link2] 
+&emsp; [<kbd><br>&nbsp;&nbsp;• Erste Schritte •&nbsp;&nbsp;<br><br></kbd>][Link2] 
 &emsp; [<kbd><br>&nbsp;&nbsp;• Types •&nbsp;&nbsp;<br><br></kbd>][Link3]
 &emsp; [<kbd><br>&nbsp;&nbsp;• Pokedex •&nbsp;&nbsp;<br><br></kbd>][Link5]
 &emsp; [<kbd><br>&nbsp;&nbsp;• Credits •&nbsp;&nbsp;<br><br></kbd>][Link4]
