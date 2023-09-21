@@ -2,7 +2,7 @@
 <h4 align="center">Menu</h4>
 <div align="center">
 
- [<kbd><br>• Die Idee •<br><br></kbd>][Link] | [<kbd><br>• Erste Schritte •<br><br></kbd>][Link2] | [<kbd><br>• Types •<br><br></kbd>][Link3]
+ [<kbd><br>• Die Idee •<br><br></kbd>][Link] &emsp; [<kbd><br>• Erste Schritte •<br><br></kbd>][Link2] &emsp; [<kbd><br>• Types •<br><br></kbd>][Link3]
 
 </div>
 
