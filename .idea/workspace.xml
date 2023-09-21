@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96c49670-5877-4a45-a6be-c31029b222a6" name="Changes" comment="message">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NexoBeats-Masterpiece.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Types.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +20,7 @@
         <option value="Kotlin File" />
         <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -41,40 +36,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nitub/IdeaProjects/NexoBeats-Masterpiece&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "kotlin"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;kotlin&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nitub\IdeaProjects\NexoBeats-Masterpiece" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nitub\IdeaProjects\NexoBeats-Masterpiece\img" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="NexoBeats-Masterpiece" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="NexoBeats-Masterpiece" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="NexoBeats-Masterpiece" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,7 +94,287 @@
       <option name="project" value="LOCAL" />
       <updated>1695200491654</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="message">
+      <option name="closed" value="true" />
+      <created>1695214094402</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695214094402</updated>
+    </task>
+    <task id="LOCAL-00003" summary="message">
+      <option name="closed" value="true" />
+      <created>1695216703773</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695216703773</updated>
+    </task>
+    <task id="LOCAL-00004" summary="message">
+      <option name="closed" value="true" />
+      <created>1695217138221</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695217138221</updated>
+    </task>
+    <task id="LOCAL-00005" summary="message">
+      <option name="closed" value="true" />
+      <created>1695217193290</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695217193290</updated>
+    </task>
+    <task id="LOCAL-00006" summary="message">
+      <option name="closed" value="true" />
+      <created>1695217262667</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695217262667</updated>
+    </task>
+    <task id="LOCAL-00007" summary="message">
+      <option name="closed" value="true" />
+      <created>1695217365389</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695217365389</updated>
+    </task>
+    <task id="LOCAL-00008" summary="message">
+      <option name="closed" value="true" />
+      <created>1695217452754</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695217452754</updated>
+    </task>
+    <task id="LOCAL-00009" summary="message">
+      <option name="closed" value="true" />
+      <created>1695218019419</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695218019419</updated>
+    </task>
+    <task id="LOCAL-00010" summary="message">
+      <option name="closed" value="true" />
+      <created>1695218254945</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695218254945</updated>
+    </task>
+    <task id="LOCAL-00011" summary="message">
+      <option name="closed" value="true" />
+      <created>1695219022307</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695219022307</updated>
+    </task>
+    <task id="LOCAL-00012" summary="message">
+      <option name="closed" value="true" />
+      <created>1695219214695</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695219214695</updated>
+    </task>
+    <task id="LOCAL-00013" summary="message">
+      <option name="closed" value="true" />
+      <created>1695219893469</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695219893469</updated>
+    </task>
+    <task id="LOCAL-00014" summary="message">
+      <option name="closed" value="true" />
+      <created>1695220078885</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1695220078885</updated>
+    </task>
+    <task id="LOCAL-00015" summary="message">
+      <option name="closed" value="true" />
+      <created>1695220496923</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1695220496923</updated>
+    </task>
+    <task id="LOCAL-00016" summary="message">
+      <option name="closed" value="true" />
+      <created>1695221004325</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1695221004325</updated>
+    </task>
+    <task id="LOCAL-00017" summary="message">
+      <option name="closed" value="true" />
+      <created>1695221034079</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1695221034079</updated>
+    </task>
+    <task id="LOCAL-00018" summary="message">
+      <option name="closed" value="true" />
+      <created>1695222429037</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1695222429037</updated>
+    </task>
+    <task id="LOCAL-00019" summary="message">
+      <option name="closed" value="true" />
+      <created>1695227148487</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1695227148487</updated>
+    </task>
+    <task id="LOCAL-00020" summary="message">
+      <option name="closed" value="true" />
+      <created>1695227349389</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1695227349389</updated>
+    </task>
+    <task id="LOCAL-00021" summary="message">
+      <option name="closed" value="true" />
+      <created>1695227501277</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1695227501277</updated>
+    </task>
+    <task id="LOCAL-00022" summary="message">
+      <option name="closed" value="true" />
+      <created>1695227554993</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1695227554993</updated>
+    </task>
+    <task id="LOCAL-00023" summary="message">
+      <option name="closed" value="true" />
+      <created>1695227762876</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1695227762876</updated>
+    </task>
+    <task id="LOCAL-00024" summary="message">
+      <option name="closed" value="true" />
+      <created>1695227919646</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1695227919646</updated>
+    </task>
+    <task id="LOCAL-00025" summary="message">
+      <option name="closed" value="true" />
+      <created>1695228384281</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1695228384281</updated>
+    </task>
+    <task id="LOCAL-00026" summary="message">
+      <option name="closed" value="true" />
+      <created>1695229519507</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1695229519507</updated>
+    </task>
+    <task id="LOCAL-00027" summary="message">
+      <option name="closed" value="true" />
+      <created>1695229683380</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1695229683380</updated>
+    </task>
+    <task id="LOCAL-00028" summary="message">
+      <option name="closed" value="true" />
+      <created>1695230956011</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1695230956011</updated>
+    </task>
+    <task id="LOCAL-00029" summary="message">
+      <option name="closed" value="true" />
+      <created>1695230973734</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1695230973734</updated>
+    </task>
+    <task id="LOCAL-00030" summary="message">
+      <option name="closed" value="true" />
+      <created>1695231802539</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1695231802539</updated>
+    </task>
+    <task id="LOCAL-00031" summary="message">
+      <option name="closed" value="true" />
+      <created>1695232301515</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1695232301515</updated>
+    </task>
+    <task id="LOCAL-00032" summary="message">
+      <option name="closed" value="true" />
+      <created>1695232648282</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1695232648282</updated>
+    </task>
+    <task id="LOCAL-00033" summary="message">
+      <option name="closed" value="true" />
+      <created>1695232719822</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1695232719822</updated>
+    </task>
+    <task id="LOCAL-00034" summary="message">
+      <option name="closed" value="true" />
+      <created>1695232927441</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1695232927441</updated>
+    </task>
+    <task id="LOCAL-00035" summary="message">
+      <option name="closed" value="true" />
+      <created>1695232988562</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1695232988562</updated>
+    </task>
+    <task id="LOCAL-00036" summary="message">
+      <option name="closed" value="true" />
+      <created>1695233194668</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1695233194668</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
