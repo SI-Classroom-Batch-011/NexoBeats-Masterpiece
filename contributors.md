@@ -1,4 +1,4 @@
-<table style="width:100%">
+<table style="width: 100%;">
 <tr>
 <th>Unterstützungen</th>
 </tr>
