@@ -1,4 +1,5 @@
-<table style="width: 100%;">
+<div align="center">
+<table style="">
 <tr>
 <th>Unterstützungen</th>
 </tr>
@@ -25,3 +26,4 @@
 
 </td>
 </table>
+</div>
