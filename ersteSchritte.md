@@ -67,7 +67,7 @@
   - Arena Leiter
 
 </td>
-<td style="vertical-align:top">
+<td style="vertical-align:top;">
 
 - Main
 - Accounts Class
