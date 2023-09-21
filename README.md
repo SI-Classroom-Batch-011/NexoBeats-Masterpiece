@@ -3,7 +3,11 @@
 <p><a href="dieIdee.md"> • Die Idee • </a> | <a href="ersteSchritte.md"> • Erste Schritte • </a> | <a href="img/pokemontypeimg.jpg"> • Types Image • </a> | <a href="contributors.md"> • Contributors • </a></p>
 </header>
 
-[<kbd> <br> Die Idee </br> <kbd>][Link]
-[Link]: # 'dieIdee.md'
+<br>
+<br>
 
-###### _Das ist das Abschluss Projekt von <u>Nico-Tobias Merzky</u> im Modul 2 von Batch 11._
+[<kbd> <br> Title <br> </kbd>][Link]
+
+###### _Das ist das Abschlussprojekt von <u>Nico-Tobias Merzky</u> im Modul 2 von Batch 11._
+
+[Link]: dieIdee.md
