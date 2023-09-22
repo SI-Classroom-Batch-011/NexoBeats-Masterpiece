@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96c49670-5877-4a45-a6be-c31029b222a6" name="Changes" comment="message" />
+    <list default="true" id="96c49670-5877-4a45-a6be-c31029b222a6" name="Changes" comment="message">
+      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,14 +84,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695196785062</updated>
-    </task>
-    <task id="LOCAL-00020" summary="message">
-      <option name="closed" value="true" />
-      <created>1695227349389</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1695227349389</updated>
     </task>
     <task id="LOCAL-00021" summary="message">
       <option name="closed" value="true" />
@@ -475,7 +469,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695372666648</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="message">
+      <option name="closed" value="true" />
+      <created>1695372898184</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1695372898184</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
