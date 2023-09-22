@@ -9,7 +9,7 @@
 - <font color="orange">Gordon Lucas
   - Hilfe mit den Modulen des Projektes
 - Christian Wietzke</font>
-  - Color Management System
+  - <a href="src/ColorSystem">Color Management System</a>
 
 
 </td>
@@ -23,6 +23,7 @@
   - <a href="src/Main.kt">Main Development</a>
   - <a href="src/Types.kt">Types Developement</a>
   - <a href="README.md">ReadMe-File Development</a>
+  - <a href="src">Recoded Color Management System</a>
 
 </td>
 </table>
