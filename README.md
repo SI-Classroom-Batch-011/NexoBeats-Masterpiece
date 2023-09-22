@@ -13,9 +13,9 @@
 
 _<h6 align="center">Das ist das Abschlussprojekt von <u>Nico-Tobias Merzky</u> im Modul 2 von Batch 11.</h6>_
 
-[Link]: dieIdee.md 'Hier siehst du wie ich auf meine Idee gekommen bin.'
-[Link2]: ersteSchritte.md 'Hier sind die ersten Schritte Dokumentiert wie ich mein Projekt angefangen habe.'
+[Link]: Infos/dieIdee.md 'Hier siehst du wie ich auf meine Idee gekommen bin.'
+[Link2]: Infos/ersteSchritte.md 'Hier sind die ersten Schritte Dokumentiert wie ich mein Projekt angefangen habe.'
 [Link3]: img/pokemontypeimg.jpg 'Hier findest du die Pokemon typen und deren Stärken, Schwächen und Ineffektivitäten.'
-[Link4]: contributors.md 'Hier kannst du alle finden die an dem Projekt beteiligt waren.'
+[Link4]: Infos/contributors.md 'Hier kannst du alle finden die an dem Projekt beteiligt waren.'
 [Link5]: https://www.pokewiki.de/Pok%C3%A9mon-Liste 'Hier findest du den Offiziellen Pokedex.'
 [Link6]: https://www.pokewiki.de/Attacken-Liste 'Hier findest du die Offizielle Pokémon Attacken liste.'

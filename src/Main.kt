@@ -1,3 +1,53 @@
+@Suppress("UNUSED")
+
+val pokedex = mapOf(
+    1 to mapOf(
+        "Name" to "Bisasam",
+        "NextEvo" to 2,
+        "Types" to listOf(Types.Pflanze, Types.Gift),
+        "MaxEvo" to 3
+    ),
+    2 to mapOf(
+        "Name" to "Bisaknosp",
+        "Prodecessor" to 1,
+        "NextEvo" to 3,
+        "Types" to listOf(Types.Pflanze, Types.Gift),
+        "MaxEvo" to 3
+    ),
+    3 to mapOf(
+        "Name" to "Bisaflor",
+        "Prodecessor" to 2,
+        "Types" to listOf(Types.Pflanze, Types.Gift),
+        "MaxEvo" to 3
+    ),
+    4 to mapOf(
+        "Name" to "Glumanda",
+        "NextEvo" to 5,
+        "Types" to listOf(Types.Feuer),
+        "MaxEvo" to 3
+    ),
+    5 to mapOf(
+        "Name" to "Glutexo",
+        "Prodecessor" to 4,
+        "NextEvo" to 6,
+        "Types" to listOf(Types.Feuer),
+        "MaxEvo" to 3
+    ),
+    6 to mapOf(
+        "Name" to "Glurak",
+        "Prodecessor" to 5,
+        "Types" to listOf(Types.Feuer, Types.Flug),
+        "MaxEvo" to 3
+    ),
+    7 to mapOf(
+        "Name" to "Schiggy",
+        "NextEvo" to 8,
+        "Types" to listOf(Types.Wasser),
+        "MaxEvo" to 3,
+    )
+
+)
+
 var playerName: String = ""
 
 fun dialoge(szene: String, dialogs: MutableList<String>){
@@ -18,6 +68,11 @@ fun dialoge(szene: String, dialogs: MutableList<String>){
         }
     }
 }
+
+val starterPokemon = mutableListOf(
+    Bisasam("Bisasam", 5, listOf("Weiblich", "Männlich").random(), 1, false, 1),
+    Glumanda("Glumanda", 5, listOf("Weiblich", "Männlich").random(), 1, false, 4)
+)
 
 val dialogScenes: MutableMap<String, MutableList<String>> = mutableMapOf(
     "Szene1" to mutableListOf(
@@ -42,6 +97,18 @@ val dialogScenes: MutableMap<String, MutableList<String>> = mutableMapOf(
         "[Daniel]: Ja schon klar, tut mir leid @ aber ich freu mich schon wir bekommen doch heute unsere Pokemon.",
         "[Marlene]: Nun gut, lass uns gemeinsam zu Prof. Eich gehen.",
         "*Ihr geht zu Prof. Eich's Labor*"),
+    "Szene4" to mutableListOf(
+        "*Ihr Betretet das Labor von Prof. Eich.*",
+        "[Daniel]: Woah wie cool sieht es denn hier aus...",
+        "[Prof. Eich]: Das bringen nun mal eine Große anzahl von Forschungen mit sich.",
+        "[Prof. Eich]: Ihr wollt euch heute also euer Pokemon aussuchen und euer Abenteuer starten?",
+        "[Ihr]: Ja wir freuen uns schon Mega auf unser Abenteuer!",
+        "[Prof. Eich]: ALSO DANN! Lasst uns zu dem Inkubator gehen und ihr könnt euch euer Pokemon aussuchen. \n[Prof. Eich]: Ich bin mir sicher, dass sie bald Schlüpfen werden.",
+        "*Ihr tretet gemeinsam mit Prof. Eich vor dem Inkubator und Prof. Eich öffnet diesen.*",
+        "[Prof. Eich]: Also wer möchte sich zuerst ein aussuchen?",
+        "[Daniel und Marlene]: @, er hat gerade sowieso einen Umzug hinter sich, sie es als Willkommensgeschenk!",
+        "[Prof. Eich]: Also Gut, Welches Pokemon soll es sein?",
+    ),
 )
 
 fun main() {
