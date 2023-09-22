@@ -1,0 +1,154 @@
+Index: Infos/contributors.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><div align=\"center\">\r\n<table style=\"\">\r\n<tr>\r\n<th>Unterstützungen</th>\r\n</tr>\r\n<tr>\r\n<td>\r\n\r\n- <font color=\"orange\">Gordon Lucas\r\n  - Hilfe mit den Modulen des Projektes\r\n- Christian Wietzke</font>\r\n  - Color Management System\r\n\r\n\r\n</td>\r\n</tr>\r\n<tr>\r\n<th>Haupt Developer</th>\r\n</tr>\r\n<td>\r\n\r\n- <font color=\"kingblue\">Nico-Tobias Merzky</font>\r\n  - <a href=\"src/Main.kt\">Main Development</a>\r\n  - <a href=\"src/Types.kt\">Types Developement</a>\r\n  - <a href=\"README.md\">ReadMe-File Development</a>\r\n\r\n</td>\r\n</table>\r\n</div>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Infos/contributors.md b/Infos/contributors.md
+--- a/Infos/contributors.md	(revision 561b587a5e5eaae372e3162d82869c09b7ce00e8)
++++ b/Infos/contributors.md	(date 1695392825554)
+@@ -20,9 +20,9 @@
+ <td>
+ 
+ - <font color="kingblue">Nico-Tobias Merzky</font>
+-  - <a href="src/Main.kt">Main Development</a>
++  - <a href="">Main Development</a>
+   - <a href="src/Types.kt">Types Developement</a>
+-  - <a href="README.md">ReadMe-File Development</a>
++  - <a href="https://github.com/SI-Classroom-Batch-011/NexoBeats-Masterpiece/blob/main/README.md">ReadMe-File Development</a>
+ 
+ </td>
+ </table>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"96c49670-5877-4a45-a6be-c31029b222a6\" name=\"Changes\" comment=\"message\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Main.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Main.kt\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Kotlin Script\" />\r\n        <option value=\"Kotlin File\" />\r\n        <option value=\"Class\" />\r\n        <option value=\"Kotlin Class\" />\r\n        <option value=\"HTML File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2VeVvzPqKDO0RHAhEqUL1n7kyTH\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"autoscrollFromSource\" value=\"true\" />\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/nitub/IdeaProjects/NexoBeats-Masterpiece&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;\r\n  },\r\n  &quot;keyToStringList&quot;: {\r\n    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [\r\n      &quot;kotlin&quot;\r\n    ]\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\nitub\\IdeaProjects\\NexoBeats-Masterpiece\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\nitub\\IdeaProjects\\NexoBeats-Masterpiece\\img\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"MainKt\" type=\"JetRunConfigurationType\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"MainKt\" />\r\n      <module name=\"NexoBeats-Masterpiece\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Kotlin.MainKt\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"96c49670-5877-4a45-a6be-c31029b222a6\" name=\"Changes\" comment=\"\" />\r\n      <created>1695196785062</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1695196785062</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00022\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695227554993</created>\r\n      <option name=\"number\" value=\"00022\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00022\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695227554993</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00023\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695227762876</created>\r\n      <option name=\"number\" value=\"00023\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00023\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695227762876</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00024\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695227919646</created>\r\n      <option name=\"number\" value=\"00024\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00024\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695227919646</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00025\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695228384281</created>\r\n      <option name=\"number\" value=\"00025\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00025\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695228384281</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00026\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695229519507</created>\r\n      <option name=\"number\" value=\"00026\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00026\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695229519507</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00027\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695229683380</created>\r\n      <option name=\"number\" value=\"00027\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00027\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695229683380</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00028\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695230956011</created>\r\n      <option name=\"number\" value=\"00028\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00028\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695230956011</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00029\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695230973734</created>\r\n      <option name=\"number\" value=\"00029\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00029\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695230973734</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00030\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695231802539</created>\r\n      <option name=\"number\" value=\"00030\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00030\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695231802539</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00031\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695232301515</created>\r\n      <option name=\"number\" value=\"00031\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00031\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695232301515</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00032\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695232648282</created>\r\n      <option name=\"number\" value=\"00032\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00032\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695232648282</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00033\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695232719822</created>\r\n      <option name=\"number\" value=\"00033\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00033\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695232719822</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00034\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695232927441</created>\r\n      <option name=\"number\" value=\"00034\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00034\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695232927441</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00035\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695232988562</created>\r\n      <option name=\"number\" value=\"00035\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00035\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695232988562</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00036\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695233194668</created>\r\n      <option name=\"number\" value=\"00036\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00036\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695233194668</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00037\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695288288610</created>\r\n      <option name=\"number\" value=\"00037\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00037\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695288288610</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00038\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695288884550</created>\r\n      <option name=\"number\" value=\"00038\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00038\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695288884550</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00039\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695289174068</created>\r\n      <option name=\"number\" value=\"00039\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00039\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695289174068</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00040\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695289285946</created>\r\n      <option name=\"number\" value=\"00040\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00040\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695289285946</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00041\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695289380295</created>\r\n      <option name=\"number\" value=\"00041\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00041\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695289380295</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00042\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695289431466</created>\r\n      <option name=\"number\" value=\"00042\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00042\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695289431466</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00043\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695289550365</created>\r\n      <option name=\"number\" value=\"00043\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00043\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695289550365</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00044\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695289589793</created>\r\n      <option name=\"number\" value=\"00044\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00044\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695289589793</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00045\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695290003096</created>\r\n      <option name=\"number\" value=\"00045\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00045\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695290003096</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00046\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695290288839</created>\r\n      <option name=\"number\" value=\"00046\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00046\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695290288839</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00047\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695290324449</created>\r\n      <option name=\"number\" value=\"00047\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00047\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695290324449</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00048\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695290365935</created>\r\n      <option name=\"number\" value=\"00048\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00048\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695290365935</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00049\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695290931723</created>\r\n      <option name=\"number\" value=\"00049\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00049\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695290931723</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00050\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695291114522</created>\r\n      <option name=\"number\" value=\"00050\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00050\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695291114523</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00051\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695291263820</created>\r\n      <option name=\"number\" value=\"00051\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00051\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695291263820</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00052\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695291269266</created>\r\n      <option name=\"number\" value=\"00052\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00052\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695291269266</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00053\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695295372013</created>\r\n      <option name=\"number\" value=\"00053\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00053\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695295372013</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00054\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695296239800</created>\r\n      <option name=\"number\" value=\"00054\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00054\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695296239800</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00055\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695296308839</created>\r\n      <option name=\"number\" value=\"00055\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00055\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695296308839</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00056\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695296434947</created>\r\n      <option name=\"number\" value=\"00056\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00056\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695296434947</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00057\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695296681852</created>\r\n      <option name=\"number\" value=\"00057\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00057\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695296681852</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00058\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695296801764</created>\r\n      <option name=\"number\" value=\"00058\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00058\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695296801764</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00059\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695297028273</created>\r\n      <option name=\"number\" value=\"00059\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00059\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695297028273</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00060\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695297182407</created>\r\n      <option name=\"number\" value=\"00060\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00060\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695297182407</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00061\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695297291073</created>\r\n      <option name=\"number\" value=\"00061\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00061\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695297291073</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00062\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695297349210</created>\r\n      <option name=\"number\" value=\"00062\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00062\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695297349210</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00063\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695297584560</created>\r\n      <option name=\"number\" value=\"00063\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00063\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695297584561</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00064\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695297621417</created>\r\n      <option name=\"number\" value=\"00064\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00064\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695297621417</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00065\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695297777244</created>\r\n      <option name=\"number\" value=\"00065\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00065\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695297777244</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00066\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695297936889</created>\r\n      <option name=\"number\" value=\"00066\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00066\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695297936889</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00067\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695298316740</created>\r\n      <option name=\"number\" value=\"00067\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00067\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695298316740</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00068\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695372666648</created>\r\n      <option name=\"number\" value=\"00068\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00068\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695372666648</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00069\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695372898184</created>\r\n      <option name=\"number\" value=\"00069\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00069\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695372898184</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00070\" summary=\"message\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695373228211</created>\r\n      <option name=\"number\" value=\"00070\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00070\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695373228211</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"71\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"message\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"message\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 561b587a5e5eaae372e3162d82869c09b7ce00e8)
++++ b/.idea/workspace.xml	(date 1695391640692)
+@@ -4,10 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="96c49670-5877-4a45-a6be-c31029b222a6" name="Changes" comment="message">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
+-    </list>
++    <list default="true" id="96c49670-5877-4a45-a6be-c31029b222a6" name="Changes" comment="es geht voran" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -17,10 +14,10 @@
+     <option name="RECENT_TEMPLATES">
+       <list>
+         <option value="Kotlin Script" />
+-        <option value="Kotlin File" />
+         <option value="Class" />
++        <option value="HTML File" />
+         <option value="Kotlin Class" />
+-        <option value="HTML File" />
++        <option value="Kotlin File" />
+       </list>
+     </option>
+   </component>
+@@ -30,6 +27,9 @@
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
++  <component name="ProblemsViewState">
++    <option name="selectedTabId" value="CurrentFile" />
++  </component>
+   <component name="ProjectId" id="2VeVvzPqKDO0RHAhEqUL1n7kyTH" />
+   <component name="ProjectViewState">
+     <option name="autoscrollFromSource" value="true" />
+@@ -60,8 +60,12 @@
+       <recent name="C:\Users\nitub\IdeaProjects\NexoBeats-Masterpiece" />
+     </key>
+     <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\Users\nitub\IdeaProjects\NexoBeats-Masterpiece\Infos" />
+       <recent name="C:\Users\nitub\IdeaProjects\NexoBeats-Masterpiece\img" />
+     </key>
++    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
++      <recent name="" />
++    </key>
+   </component>
+   <component name="RunManager">
+     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+@@ -86,30 +90,6 @@
+       <option name="presentableId" value="Default" />
+       <updated>1695196785062</updated>
+     </task>
+-    <task id="LOCAL-00022" summary="message">
+-      <option name="closed" value="true" />
+-      <created>1695227554993</created>
+-      <option name="number" value="00022" />
+-      <option name="presentableId" value="LOCAL-00022" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1695227554993</updated>
+-    </task>
+-    <task id="LOCAL-00023" summary="message">
+-      <option name="closed" value="true" />
+-      <created>1695227762876</created>
+-      <option name="number" value="00023" />
+-      <option name="presentableId" value="LOCAL-00023" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1695227762876</updated>
+-    </task>
+-    <task id="LOCAL-00024" summary="message">
+-      <option name="closed" value="true" />
+-      <created>1695227919646</created>
+-      <option name="number" value="00024" />
+-      <option name="presentableId" value="LOCAL-00024" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1695227919646</updated>
+-    </task>
+     <task id="LOCAL-00025" summary="message">
+       <option name="closed" value="true" />
+       <created>1695228384281</created>
+@@ -478,7 +458,31 @@
+       <option name="project" value="LOCAL" />
+       <updated>1695373228211</updated>
+     </task>
+-    <option name="localTasksCounter" value="71" />
++    <task id="LOCAL-00071" summary="message">
++      <option name="closed" value="true" />
++      <created>1695373891650</created>
++      <option name="number" value="00071" />
++      <option name="presentableId" value="LOCAL-00071" />
++      <option name="project" value="LOCAL" />
++      <updated>1695373891650</updated>
++    </task>
++    <task id="LOCAL-00072" summary="message">
++      <option name="closed" value="true" />
++      <created>1695373899256</created>
++      <option name="number" value="00072" />
++      <option name="presentableId" value="LOCAL-00072" />
++      <option name="project" value="LOCAL" />
++      <updated>1695373899256</updated>
++    </task>
++    <task id="LOCAL-00073" summary="es geht voran">
++      <option name="closed" value="true" />
++      <created>1695391630598</created>
++      <option name="number" value="00073" />
++      <option name="presentableId" value="LOCAL-00073" />
++      <option name="project" value="LOCAL" />
++      <updated>1695391630598</updated>
++    </task>
++    <option name="localTasksCounter" value="74" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -494,6 +498,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="message" />
+-    <option name="LAST_COMMIT_MESSAGE" value="message" />
++    <MESSAGE value="es geht voran" />
++    <option name="LAST_COMMIT_MESSAGE" value="es geht voran" />
+   </component>
+ </project>
+\ No newline at end of file
