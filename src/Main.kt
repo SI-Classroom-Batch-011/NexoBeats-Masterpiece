@@ -44,22 +44,34 @@ val pokedex = mapOf(
         "NextEvo" to 8,
         "Types" to listOf(Types.Wasser),
         "MaxEvo" to 3,
+    ),
+    8 to mapOf(
+        "Name" to "Schillok",
+        "Prodecessor" to 7,
+        "NextEvo" to 9,
+        "Types" to listOf(Types.Wasser),
+        "MaxEvo" to 3
+    ),
+    9 to mapOf(
+        "Name" to "Turtok",
+        "Prodecessor" to 8,
+        "Types" to listOf(Types.Wasser),
+        "MaxEvo" to 3
     )
-
 )
 
-var playerName: String = ""
+val player = Player()
 
 fun dialoge(szene: String, dialogs: MutableList<String>){
     for (text in dialogs) {
-        val formatted = text.replace("@", playerName)
+        val formatted = text.replace("@", player.name)
         if (dialogs.indexOf(text) == 4 && szene == "Szene1") {
             print("\r$formatted")
             readln()
         } else if (dialogs.indexOf(text) == 3 && szene == "Szene1") {
             print("\r$formatted")
             print("\nWie Heißt du: ")
-            playerName = readln()
+            player.name = readln()
         } else {
             print("\r$formatted")
             if ("ü" in readln()) { //überspringen mit ü
@@ -71,7 +83,8 @@ fun dialoge(szene: String, dialogs: MutableList<String>){
 
 val starterPokemon = mutableListOf(
     Bisasam("Bisasam", 5, listOf("Weiblich", "Männlich").random(), 1, false, 1),
-    Glumanda("Glumanda", 5, listOf("Weiblich", "Männlich").random(), 1, false, 4)
+    Glumanda("Glumanda", 5, listOf("Weiblich", "Männlich").random(), 1, false, 4),
+    Schiggy("Schiggy", 5, listOf("Weiblich", "Männlich").random(), 1, false, 7)
 )
 
 val dialogScenes: MutableMap<String, MutableList<String>> = mutableMapOf(
@@ -111,8 +124,28 @@ val dialogScenes: MutableMap<String, MutableList<String>> = mutableMapOf(
     ),
 )
 
+
+fun listStarter() {
+    println("Welches Pokemon wählst du?")
+    for (pokemon in starterPokemon) {
+        val pokemonType = pokedex[pokemon.pokedexId]?.get("Types")
+        val textColor = when {
+            Types.Wasser in enumValues<Types>() -> blueFG
+            Types.Pflanze in enumValues<Types>() -> greenFG
+            Types.Feuer in enumValues<Types>() -> brightRedFG
+            else -> resetFG
+        }
+        println("$magentaFG${starterPokemon.indexOf(pokemon) + 1}. $textColor${pokemon.getName()}$resetFG")
+    }
+}
+
 fun main() {
     dialoge("Szene1", dialogScenes["Szene1"]!!)
     dialoge("Szene2", dialogScenes["Szene2"]!!)
     dialoge("Szene3", dialogScenes["Szene3"]!!)
+    dialoge("Szene4", dialogScenes["Szene4"]!!)
+
+    listStarter()
+
+
 }

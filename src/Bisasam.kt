@@ -1,7 +1,7 @@
 import kotlin.math.roundToInt
 @Suppress("UNUSED")
 
-class Bisasam(name: String, lvl: Int, gender: String, private var cEvo: Int, private var isWild: Boolean, private var pokedexId: Int): Pokemon(name, lvl, gender){
+class Bisasam(name: String, lvl: Int, gender: String, private var cEvo: Int, private var isWild: Boolean, pokedexId: Int): Pokemon(name, lvl, gender, pokedexId){
     private val maxEvo = pokedex[this.pokedexId]?.get("MaxEvo").toString().toInt()
     private val nextEvo = pokedex[this.pokedexId]?.get("NextEvo")
     val pokemonTypen = pokedex[this.pokedexId]?.get("Types")
