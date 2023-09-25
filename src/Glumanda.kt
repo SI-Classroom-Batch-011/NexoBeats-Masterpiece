@@ -29,6 +29,17 @@ class Glumanda(name: String, lvl: Int, gender: String, private var cEvo: Int, pr
             checkKP()
         }
 
+    fun showPokemonInfo(): String{
+        return ("""$brightBlueBG$whiteFG----------[${if ("w" in this.gender.lowercase()) { "♀" }else if ("m" in this.gender.lowercase()){"♂"} else{"nA"}} ${this.getName()} lvl.${this.getLevel()}]----------
+        $blueBG KP        $whiteBG$blackFG    ${this.maxKp}/${this.kp}    $blueBG$whiteFG
+        Atk.         $whiteBG$blackFG    ${this.atk}    $blueBG$whiteFG
+        Def.         $whiteBG$blackFG    ${this.def}    $blueBG$whiteFG
+        Sp. Atk.         $whiteBG$blackFG    ${this.spAtk}    $blueBG$whiteFG
+        Sp. Def.         $whiteBG$blackFG    ${this.spDef}    $blueBG$whiteFG
+        Init.         $whiteBG    ${this.init}    $blueBG$whiteFG
+        $brightBlueBG$whiteFG--------------------------------------------------$resetBG$resetFG""".trimIndent())
+    }
+
     private fun checkKP(){
         if (health <= 0) {
             beated()
@@ -68,15 +79,5 @@ class Glumanda(name: String, lvl: Int, gender: String, private var cEvo: Int, pr
         val previousName = this.getName()
         this.setName(pokedex[this.nextEvo]?.get("Name").toString())
         println("Glückwunsch! $previousName hat sich zu ${this.getName()} entwickelt!")
-    }
-    fun showPokemonInfo(){
-        println("""$brightBlueBG$whiteFG----------[${if ("w" in this.gender.lowercase()) { "♀" }else if ("m" in this.gender.lowercase()){"♂"} else{"nA"}} ${this.getName()} lvl.${this.getLevel()}]----------
-        $blueBG KP        $whiteBG$blackFG    ${this.maxKp}/${this.kp}    $blueBG$whiteFG
-        Atk.         $whiteBG$blackFG    ${this.atk}    $blueBG$whiteFG
-        Def.         $whiteBG$blackFG    ${this.def}    $blueBG$whiteFG
-        Sp. Atk.         $whiteBG$blackFG    ${this.spAtk}    $blueBG$whiteFG
-        Sp. Def.         $whiteBG$blackFG    ${this.spDef}    $blueBG$whiteFG
-        Init.         $whiteBG    ${this.init}    $blueBG$whiteFG
-        $brightBlueBG$whiteFG--------------------------------------------------$resetBG$resetFG""".trimIndent())
     }
 }

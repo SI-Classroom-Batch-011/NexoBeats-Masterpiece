@@ -147,6 +147,8 @@ fun listStarter() {
 }
 
 fun main() {
+    val daniel = Rivale("Daniel", "Männlich")
+    val marlene = Rivale("Marlene", "Weiblich")
     dialoge("Szene1", dialogScenes["Szene1"]!!)
     dialoge("Szene2", dialogScenes["Szene2"]!!)
     dialoge("Szene3", dialogScenes["Szene3"]!!)
@@ -160,9 +162,19 @@ fun main() {
             input = readln().toInt() - 1
             selectedPokemon = starterPokemon.removeAt(input)
             player.pokemon.add(selectedPokemon)
+            if (selectedPokemon.getName() == "Schiggy") {
+                starterPokemon.forEach { if (it.getName() == "Bisasam") daniel.pokemon.add(it) else if (it.getName() == "Glumanda") marlene.pokemon.add(it) }
+            } else if (selectedPokemon.getName() == "Bisasam") {
+                starterPokemon.forEach { if (it.getName() == "Glumanda") daniel.pokemon.add(it) else if (it.getName() == "Schiggy") marlene.pokemon.add(it) }
+            } else if (selectedPokemon.getName() == "Glumanda") {
+                starterPokemon.forEach { if (it.getName() == "Schiggy") daniel.pokemon.add(it) else if (it.getName() == "Bisasam") marlene.pokemon.add(it) }
+            }
         } catch (e: Exception) {
             println("Fehlerhafte eingabe: ${e.message}")
         }
     }while (player.pokemon.isEmpty())
     println("${player.name} hat das Pokemon ${player.pokemon.first().getName()} ausgewählt.")
+    println(player.pokemon.first())
+    println("${daniel.name} hat das Pokemon ${daniel.pokemon.first().getName()} ausgewählt.")
+    println("${marlene.name} hat das Pokemon ${marlene.pokemon.first().getName()} ausgewählt.")
 }
