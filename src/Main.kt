@@ -1,3 +1,8 @@
+@file:Suppress("UNCHECKED_CAST")
+
+import java.lang.Exception
+
+
 @Suppress("UNUSED")
 
 val pokedex = mapOf(
@@ -124,17 +129,19 @@ val dialogScenes: MutableMap<String, MutableList<String>> = mutableMapOf(
     ),
 )
 
+fun getTextColorForPokemonTypes(pokemonTypes: List<Types>): String {
+    return when {
+        Types.Wasser in pokemonTypes -> blueFG
+        Types.Pflanze in pokemonTypes -> greenFG
+        Types.Feuer in pokemonTypes -> brightRedFG
+        else -> resetFG
+    }
+}
 
 fun listStarter() {
     println("Welches Pokemon wählst du?")
     for (pokemon in starterPokemon) {
-        val pokemonType = pokedex[pokemon.pokedexId]?.get("Types")
-        val textColor = when {
-            Types.Wasser in enumValues<Types>() -> blueFG
-            Types.Pflanze in enumValues<Types>() -> greenFG
-            Types.Feuer in enumValues<Types>() -> brightRedFG
-            else -> resetFG
-        }
+        val textColor = getTextColorForPokemonTypes(pokedex[pokemon.pokedexId]?.get("Types") as List<Types>)
         println("$magentaFG${starterPokemon.indexOf(pokemon) + 1}. $textColor${pokemon.getName()}$resetFG")
     }
 }
@@ -145,7 +152,17 @@ fun main() {
     dialoge("Szene3", dialogScenes["Szene3"]!!)
     dialoge("Szene4", dialogScenes["Szene4"]!!)
 
-    listStarter()
-
-
+    do {
+        listStarter()
+        val selectedPokemon: Pokemon
+        val input: Int
+        try {
+            input = readln().toInt() - 1
+            selectedPokemon = starterPokemon.removeAt(input)
+            player.pokemon.add(selectedPokemon)
+        } catch (e: Exception) {
+            println("Fehlerhafte eingabe: ${e.message}")
+        }
+    }while (player.pokemon.isEmpty())
+    println("${player.name} hat das Pokemon ${player.pokemon.first().getName()} ausgewählt.")
 }
