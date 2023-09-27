@@ -1,5 +1,4 @@
 @file:Suppress("UNCHECKED_CAST")
-
 import java.lang.Exception
 
 
@@ -87,9 +86,9 @@ fun dialoge(szene: String, dialogs: MutableList<String>){
 }
 
 val starterPokemon = mutableListOf(
-    Bisasam("Bisasam", 5, listOf("Weiblich", "Männlich").random(), 1, false, 1),
-    Glumanda("Glumanda", 5, listOf("Weiblich", "Männlich").random(), 1, false, 4),
-    Schiggy("Schiggy", 5, listOf("Weiblich", "Männlich").random(), 1, false, 7)
+    Bisasam("Bisasam", 5, listOf("Weiblich", "Männlich").random(), 1,  false, 1, mutableListOf(Tackle(35, 50))),
+    Glumanda("Glumanda", 5, listOf("Weiblich", "Männlich").random(), 1,  false, 4, mutableListOf(Tackle(35, 50))),
+    Schiggy("Schiggy", 5, listOf("Weiblich", "Männlich").random(), 1, false, 7, mutableListOf(Tackle(35, 50)))
 )
 
 val dialogScenes: MutableMap<String, MutableList<String>> = mutableMapOf(
@@ -125,8 +124,19 @@ val dialogScenes: MutableMap<String, MutableList<String>> = mutableMapOf(
         "*Ihr tretet gemeinsam mit Prof. Eich vor dem Inkubator und Prof. Eich öffnet diesen.*",
         "[Prof. Eich]: Also wer möchte sich zuerst ein aussuchen?",
         "[Daniel und Marlene]: @, er hat gerade sowieso einen Umzug hinter sich, sie es als Willkommensgeschenk!",
-        "[Prof. Eich]: Also Gut, Welches Pokemon soll es sein?",
-    ),
+        "[Prof. Eich]: Also Gut, Welches Pokemon soll es sein?"),
+    "Szene5" to mutableListOf(
+        "[Marlene]: Mein Pokemon ist sooo Süß!",
+        "[Daniel]: Mein Pokemon wird euch alle besiegen! >:D",
+        "[Prof. Eich]: Wenn ihr eure Pokemon mal gegeneinander kämpfen lassen wollt, wir haben gleich hier eine Arena.",
+        "[Ihr]: Ja wir wollen unbedingt mal ausprobieren wie so ein Pokemon kampf abläuft!",
+        "[Prof. Eich]: Dann folgt mir mal bitte.",
+        "*Ihr Folgt Prof. Eich in die Labor Arena*",
+        "[Prof. Eich]: Wer sind die ersten beiden gegner?",
+        "[Daniel]: Ich und @, was sagst du dazu? ist das nicht eine gute idee?",
+        "[Marlene]: Ich finde auch das ist ein gute idee, keine sorge den gewinner werde ich wieder aufpäppeln damit es fair bleibt.",
+        "*@ und Daniel gehen an ihre Positionen*",
+        "[Prof. Eich]: 1. Runde @ gegen Daniel!")
 )
 
 fun getTextColorForPokemonTypes(pokemonTypes: List<Types>): String {
@@ -146,9 +156,31 @@ fun listStarter() {
     }
 }
 
+fun kampf(spieler: Player, rivale: Rivale){
+    while (spieler.pokemon.count { it.getHealth() > 0 } > 0 && rivale.pokemon.count{it.getHealth() > 0} > 0){
+        val spielerPokemon = spieler.pokemon.first{ it.getHealth() > 0 }
+        val rivalenPokemon = rivale.pokemon.first{ it.getHealth() > 0 }
+        spielerPokemon.gegner = rivalenPokemon
+        rivalenPokemon.gegner = spielerPokemon
+        if (spielerPokemon.init >= rivalenPokemon.init) {
+            spielerPokemon.attacks.first().attack(spielerPokemon)
+            rivalenPokemon.attacks.first().attack(rivalenPokemon)
+        } else if (rivalenPokemon.init > spielerPokemon.init) {
+            rivalenPokemon.attacks.first().attack(rivalenPokemon)
+            spielerPokemon.attacks.first().attack(spielerPokemon)
+        }
+    }
+    if (spieler.pokemon.count { it.getHealth() > 0 } > 0) {
+        println(spieler.name + " hat den Kampf gewonnen!")
+    } else if (rivale.pokemon.count { it.getHealth() > 0 } > 0) {
+        println(spieler.name + " hat keine kampffähige Pokemon mehr, ihm wird schwarz vor augen und begibt sich zum nächsten Pokecenter.")
+    }
+}
+
 fun main() {
     val daniel = Rivale("Daniel", "Männlich")
     val marlene = Rivale("Marlene", "Weiblich")
+
     dialoge("Szene1", dialogScenes["Szene1"]!!)
     dialoge("Szene2", dialogScenes["Szene2"]!!)
     dialoge("Szene3", dialogScenes["Szene3"]!!)
@@ -173,8 +205,12 @@ fun main() {
             println("Fehlerhafte eingabe: ${e.message}")
         }
     }while (player.pokemon.isEmpty())
+
     println("${player.name} hat das Pokemon ${player.pokemon.first().getName()} ausgewählt.")
-    println(player.pokemon.first())
     println("${daniel.name} hat das Pokemon ${daniel.pokemon.first().getName()} ausgewählt.")
     println("${marlene.name} hat das Pokemon ${marlene.pokemon.first().getName()} ausgewählt.")
+
+    dialoge("Szene5", dialogScenes["Szene5"]!!)
+
+    kampf(player, daniel)
 }

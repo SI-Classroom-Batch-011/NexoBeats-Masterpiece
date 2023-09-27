@@ -1,19 +1,18 @@
 import kotlin.math.roundToInt
-@Suppress("UNUSED")
+@Suppress("UNUSED", "UNCHECKED_CAST")
 
-class Bisasam(name: String, lvl: Int, gender: String, private var cEvo: Int, private var isWild: Boolean, pokedexId: Int): Pokemon(name, lvl, gender, pokedexId){
+class Bisasam(name: String, lvl: Int, gender: String, private var cEvo: Int, private var isWild: Boolean, pokedexId: Int, attacks: MutableList<Attacke>): Pokemon(name, lvl, gender, pokedexId, attacks){
     private val maxEvo = pokedex[this.pokedexId]?.get("MaxEvo").toString().toInt()
     private val nextEvo = pokedex[this.pokedexId]?.get("NextEvo")
-    val pokemonTypen = pokedex[this.pokedexId]?.get("Types")
+    override var pokemonTypen: List<Types> = pokedex[this.pokedexId]?.get("Types") as List<Types>
     private val maxKp = (10 + (2 * lvl)) * cEvo
     private val kp = this.maxKp
-    private val atk = (5 + (1 * lvl)) * cEvo
-    private val def = (5 + (1 * lvl)) * cEvo
-    private val spAtk = (5 + (1 * lvl)) * cEvo
-    private val spDef = (5 + (1 * lvl)) * cEvo
-    private val init = (5 + (1 * lvl)) * cEvo
+    override var atk = (2 + (1 * lvl)) * cEvo
+    override var def = (2 + (1 * lvl)) * cEvo
+    override var spAtk = (2 + (1 * lvl)) * cEvo
+    override var spDef = (2 + (1 * lvl)) * cEvo
+    override var init = (2 + (1 * lvl)) * cEvo
 
-    lateinit var gegner: Pokemon
     private val maxXP: Int = 10 * lvl
     private var xp: Int = 0
         set(value){
@@ -29,15 +28,15 @@ class Bisasam(name: String, lvl: Int, gender: String, private var cEvo: Int, pri
             checkKP()
         }
 
-    fun showPokemonInfo(): String{
-        return ("""$brightBlueBG$whiteFG----------[${if ("w" in this.gender.lowercase()) { "♀" }else if ("m" in this.gender.lowercase()){"♂"} else{"nA"}} ${this.getName()} lvl.${this.getLevel()}]----------
-        $blueBG KP        $whiteBG$blackFG    ${this.maxKp}/${this.kp}    $blueBG$whiteFG
-        Atk.         $whiteBG$blackFG    ${this.atk}    $blueBG$whiteFG
-        Def.         $whiteBG$blackFG    ${this.def}    $blueBG$whiteFG
-        Sp. Atk.         $whiteBG$blackFG    ${this.spAtk}    $blueBG$whiteFG
-        Sp. Def.         $whiteBG$blackFG    ${this.spDef}    $blueBG$whiteFG
-        Init.         $whiteBG    ${this.init}    $blueBG$whiteFG
-        $brightBlueBG$whiteFG--------------------------------------------------$resetBG$resetFG""".trimIndent())
+    override fun showPokemonInfo(){
+        println("""$blueBG$whiteFG----------[${if ("w" in this.gender.lowercase()) { "♀" }else if ("m" in this.gender.lowercase()){"♂"} else{"nA"}} ${this.getName()} lvl.${this.getLevel()}]----------$greenBG 
+        KP           $whiteBG$blackFG    ${this.maxKp}/${this.kp}    $greenBG$whiteFG
+        Atk.         $whiteBG$blackFG    ${this.atk}    $greenBG$whiteFG
+        Def.         $whiteBG$blackFG    ${this.def}    $greenBG$whiteFG
+        Sp. Atk.     $whiteBG$blackFG    ${this.spAtk}    $greenBG$whiteFG
+        Sp. Def.     $whiteBG$blackFG    ${this.spDef}    $greenBG$whiteFG
+        Init.        $whiteBG$blackFG    ${this.init}    $greenBG$whiteFG
+        $blueBG$whiteFG--------------------------------------------------$resetBG$resetFG""".trimIndent())
     }
     private fun checkKP(){
         if (health <= 0) {
@@ -46,11 +45,21 @@ class Bisasam(name: String, lvl: Int, gender: String, private var cEvo: Int, pri
     }
 
     private fun beated(){
-//        gegner.setXP(this.xpReward)
+        val neuerGegner = this.gegner
+        if (neuerGegner != null) {
+            println(this.getName() + " wurde von " + neuerGegner.getName() + " besiegt!")
+            neuerGegner.setXP(this.xpReward)
+            println(neuerGegner.getName() + " Erhält " + this.xpReward + " Erfahrungspunkte durch den sieg an " + this.getName())
+            this.gegner = null
+        }
     }
 
-    fun setXP(value: Int){
+    override fun setXP(value: Int){
         this.xp = value
+    }
+
+    override fun setKP(value: Int) {
+        this.health = value
     }
 
     private fun checkXP(){
@@ -78,5 +87,9 @@ class Bisasam(name: String, lvl: Int, gender: String, private var cEvo: Int, pri
         val previousName = this.getName()
         this.setName(pokedex[this.nextEvo]?.get("Name").toString())
         println("Glückwunsch! $previousName hat sich zu ${this.getName()} entwickelt!")
+    }
+
+    override fun getHealth(): Int {
+        return health
     }
 }
