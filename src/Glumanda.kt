@@ -8,9 +8,9 @@ class Glumanda(name: String, lvl: Int, gender: String, private var cEvo: Int, pr
     private val maxKp = (10 + (2 * lvl)) * cEvo
     private val kp = this.maxKp
     override var atk = (2 + (1 * lvl)) * cEvo
-    override var def = (2 + (1 * lvl)) * cEvo
+    override var def = (1 + (1 * lvl)) * cEvo
     override var spAtk = (2 + (1 * lvl)) * cEvo
-    override var spDef = (2 + (1 * lvl)) * cEvo
+    override var spDef = (1 + (1 * lvl)) * cEvo
     override var init = (2 + (1 * lvl)) * cEvo
 
     private val maxXP: Int = 10 * lvl
@@ -21,7 +21,7 @@ class Glumanda(name: String, lvl: Int, gender: String, private var cEvo: Int, pr
         }
     private var xpReward: Int = setXpReward()
 
-    val maxHealth = this.maxKp
+    override var maxHealth = this.maxKp
     private var health = this.kp
         set(value){
             field += value

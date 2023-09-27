@@ -7,6 +7,7 @@ open class Pokemon(private var name: String = "Ditto", private var lvl: Int = 1,
     open var spDef: Int = 0
     open var pokemonTypen: List<Types> = listOf(Types.Normal)
     var gegner: Pokemon? = null
+    open var maxHealth = 0
 
     fun getName(): String{
         return this.name

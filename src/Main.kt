@@ -86,9 +86,9 @@ fun dialoge(szene: String, dialogs: MutableList<String>){
 }
 
 val starterPokemon = mutableListOf(
-    Bisasam("Bisasam", 5, listOf("Weiblich", "Männlich").random(), 1,  false, 1, mutableListOf(Tackle(35, 50))),
-    Glumanda("Glumanda", 5, listOf("Weiblich", "Männlich").random(), 1,  false, 4, mutableListOf(Tackle(35, 50))),
-    Schiggy("Schiggy", 5, listOf("Weiblich", "Männlich").random(), 1, false, 7, mutableListOf(Tackle(35, 50)))
+    Bisasam(pokedex[1]?.get("Name") as String, 5, listOf("Weiblich", "Männlich").random(), 1,  false, 1, mutableListOf(Tackle(35, 50))),
+    Glumanda(pokedex[4]?.get("Name") as String, 5, listOf("Weiblich", "Männlich").random(), 1,  false, 4, mutableListOf(Tackle(35, 50))),
+    Schiggy(pokedex[7]?.get("Name") as String, 5, listOf("Weiblich", "Männlich").random(), 1, false, 7, mutableListOf(Tackle(35, 50)))
 )
 
 val dialogScenes: MutableMap<String, MutableList<String>> = mutableMapOf(
@@ -136,7 +136,19 @@ val dialogScenes: MutableMap<String, MutableList<String>> = mutableMapOf(
         "[Daniel]: Ich und @, was sagst du dazu? ist das nicht eine gute idee?",
         "[Marlene]: Ich finde auch das ist ein gute idee, keine sorge den gewinner werde ich wieder aufpäppeln damit es fair bleibt.",
         "*@ und Daniel gehen an ihre Positionen*",
-        "[Prof. Eich]: 1. Runde @ gegen Daniel!")
+        "[Prof. Eich]: 1. Runde @ gegen Daniel!"),
+    "Szene6" to mutableListOf(
+        "[Prof. Eich]: @ hat den Kampf gewonnen! Herzlichen Glückwunsch!",
+        "[Marlene]: Wow @, bist du etwa schon ein Profi? Du hast richtig Gut gekämpft!",
+        "[Marlene]: nagut @, lass mich deine Pokemon eben wieder aufpeppep.",
+        "*Marlene hat deine Pokemon geheilt*",
+        "[Prof. Eich]: Der Nächste Kampf ist @ gegen Marlene",
+        "[Prof. Eich]: Trainer geht an eure Plätze!",
+        "*@ und Marlene gehen an ihre Plätze*",
+        "[Marlene]: Bitte tuh meinen süßen Pokemon nicht zusehr weh!",
+        "[Prof. Eich]: Keine Sorge all eure Pokemon werden nach den Kämpfen geheilt.",
+        "[Marlene]: Puuuh :)",
+        "[Prof. Eich]: Lasst den Kampf Beginnen!")
 )
 
 fun getTextColorForPokemonTypes(pokemonTypes: List<Types>): String {
@@ -175,6 +187,8 @@ fun kampf(spieler: Player, rivale: Rivale){
     } else if (rivale.pokemon.count { it.getHealth() > 0 } > 0) {
         println(spieler.name + " hat keine kampffähige Pokemon mehr, ihm wird schwarz vor augen und begibt sich zum nächsten Pokecenter.")
     }
+    spieler.pokemon.forEach{it.setKP(it.maxHealth)}
+    rivale.pokemon.forEach{it.setKP(it.maxHealth)}
 }
 
 fun main() {
