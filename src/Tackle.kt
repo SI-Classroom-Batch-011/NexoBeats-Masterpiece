@@ -1,6 +1,6 @@
 import kotlin.math.roundToInt
 
-class Tackle(ap: Int, apd: Int, type: Types = Types.Normal, private var name: String = "Tackle"): Attacke(ap, apd, type) {
+class Tackle(ap: Int, apd: Int, type: Types = Types.Normal, name: String = "Tackle"): Attacke(ap, apd, type, name) {
     private fun getEffectiveness(typ: Types): Double{
         return when (typ) {
             in this.attackTyp.getStrengths() -> 0.5
