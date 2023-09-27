@@ -5,7 +5,7 @@ class Schiggy(name: String, lvl: Int, gender: String, private var cEvo: Int, pri
     private val maxEvo = pokedex[this.pokedexId]?.get("MaxEvo").toString().toInt()
     private val nextEvo = pokedex[this.pokedexId]?.get("NextEvo")
     override var pokemonTypen: List<Types> = pokedex[this.pokedexId]?.get("Types") as List<Types>
-    private val maxKp = (10 + (2 * lvl)) * cEvo
+    private val maxKp = (10 + (5 * lvl)) * cEvo
     private val kp = this.maxKp
     override var atk = (2 + (1 * lvl)) * cEvo
     override var def = (1 + (1 * lvl)) * cEvo

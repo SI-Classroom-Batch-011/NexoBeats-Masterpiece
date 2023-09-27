@@ -20,9 +20,15 @@ class Tackle(ap: Int, apd: Int, type: Types = Types.Normal, private var name: St
                 val dmg = (((2 + (apd * 0.1) + (pokemon.atk * 0.5)).roundToInt() * effectiveness).roundToInt()) * if (isCritical) 4 else 1
                 if (effectiveness != 1.0) {
                     println("${pokemon.getName()} setzt " + this.name + " ein!")
+                    if (isCritical) {
+                        println("Es war ein Volltreffer")
+                    }
                     println("Es ist ${if (effectiveness == 0.5){ "nicht sehr Effektiv" } else if (effectiveness == 2.0 ){ "sehr Effektiv" } else { "Wirkungslos" }} gegen ${neuerGegner.getName()}.")
                 } else {
                     println("${pokemon.getName()} setzt " + this.name + " ein!")
+                    if (isCritical) {
+                        println("Es war ein Volltreffer")
+                    }
                 }
                 neuerGegner.setKP(-dmg)
                 this.ap - 1
