@@ -29,7 +29,6 @@
   - <a href="https://github.com/SI-Classroom-Batch-011/NexoBeats-Masterpiece/blob/main/src/Types.kt">Types Developement</a>
   - <a href="https://github.com/SI-Classroom-Batch-011/NexoBeats-Masterpiece/blob/main/README.md">ReadMe-File Development</a>
   - <a href="https://github.com/SI-Classroom-Batch-011/NexoBeats-Masterpiece/blob/main/src/ColorSystem.kt">Recoded Color Management System</a>
-  - <a>Attacks</a>
 
 </td>
 </table>

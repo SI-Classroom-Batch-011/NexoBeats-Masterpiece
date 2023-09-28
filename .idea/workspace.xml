@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96c49670-5877-4a45-a6be-c31029b222a6" name="Changes" comment="es geht voran">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Attacke.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Attacke.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tackle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tackle.kt" afterDir="false" />
-    </list>
+    <list default="true" id="96c49670-5877-4a45-a6be-c31029b222a6" name="Changes" comment="Fertig" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,14 +90,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695196785062</updated>
-    </task>
-    <task id="LOCAL-00034" summary="message">
-      <option name="closed" value="true" />
-      <created>1695232927441</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1695232927441</updated>
     </task>
     <task id="LOCAL-00035" summary="message">
       <option name="closed" value="true" />
@@ -488,7 +475,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695829558867</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Fertig">
+      <option name="closed" value="true" />
+      <created>1695847083632</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1695847083632</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -505,6 +500,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="message" />
     <MESSAGE value="es geht voran" />
-    <option name="LAST_COMMIT_MESSAGE" value="es geht voran" />
+    <MESSAGE value="Fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fertig" />
   </component>
 </project>
