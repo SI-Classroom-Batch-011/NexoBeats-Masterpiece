@@ -24,47 +24,30 @@
 <td>
 
 - Main
+  - Dialoge
+  - KampfSystem
+  - RivalsSetup
+  - PlayerSetup
+  - PokemonSetup
+  - Pokedex
+  - Dialoge Reading System
+  - Colors added to Dialogs
 - Pokémon Class
-  - Pikachu
-  - Raichu
-  - Pichu
-  - Hundemon
-  - Glurak
+  - Bisasam
   - Glumanda
+  - Schiggy
+  - Mehr Pokemon Hinzufügbar
 - Attacken Class
-  - Glut
-  - Aquaknarre
-  - Blitzschlag
-  - Flammenwurf
-  - Hyperstrahl
   - Tackle
-  - Kratzer
-  - Silberblick
-  - Ruckzuckhieb
-- Item Class
-  - Trank
-  - Pokéball
-  - Fahrrad
-  - Item Radar
-  - Superball
-  - Hyperball
-  - Netzball
-  - Meisterball
-  - Sonderbonbon
-  - Nestball
-  - Dunkelball
-  - Lichtball
-  - Heilball
-- City Class
-  - Stadt 1
-  - Stadt 2
-  - Stadt 3
-  - Stadt 4
-- NPC's Class
-  - Gegner
-  - Freunde
-  - Rivalen
-  - Arena Leiter
+  - Mehr Attacken hinzufügbar
+- Rivalen Class
+  - Marlene
+  - Daniel
+  - Mehr Gegner Hinzufügbar
+- Color Management System
+- Levelup System
+- Evolution System
+- Saving Enemy Pokemon
 
 </td>
 <td style="vertical-align:top;">
